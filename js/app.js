@@ -13,7 +13,6 @@ var videos = [
 
 
 
-
 function getVideo() {
     var user_input = document.getElementById('myInput').value; //gets value of a text field
 
