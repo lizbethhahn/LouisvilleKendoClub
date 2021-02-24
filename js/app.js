@@ -1,14 +1,14 @@
 var videos = [
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=186s", 
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=215s", 
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=238s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=272s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=305s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=334s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=364s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=457s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=486s",
-    "https://www.youtube.com/watch?v=OMyuTsE1hl4&t=515s"
+    "https://youtu.be/A4QedTRufIE?t=174", 
+    "https://youtu.be/A4QedTRufIE?t=209", 
+    "https://youtu.be/A4QedTRufIE?t=240",
+    "https://youtu.be/A4QedTRufIE?t=288",
+    "https://youtu.be/A4QedTRufIE?t=326",
+    "https://youtu.be/A4QedTRufIE?t=366",
+    "https://youtu.be/A4QedTRufIE?t=407",
+    "https://youtu.be/A4QedTRufIE?t=518",
+    "https://youtu.be/A4QedTRufIE?t=552",
+    "https://youtu.be/A4QedTRufIE?t=591"
 ];
 
 
