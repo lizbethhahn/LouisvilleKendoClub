@@ -1,14 +1,14 @@
 var videos = [
-    "https://youtu.be/U9nNymMSixs?t=186",
-    "https://youtu.be/U9nNymMSixs?t=214",
-    "https://youtu.be/U9nNymMSixs?t=238",
-    "https://youtu.be/U9nNymMSixs?t=273",
-    "https://youtu.be/U9nNymMSixs?t=304",
-    "https://youtu.be/U9nNymMSixs?t=333",
-    "https://youtu.be/U9nNymMSixs?t=364",
-    "https://youtu.be/U9nNymMSixs?t=458",
-    "https://youtu.be/U9nNymMSixs?t=487",
-    "https://youtu.be/U9nNymMSixs?t=515"
+    "https://youtu.be/Ip5JWXMUJX0?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=1",
+    "https://youtu.be/K0ez9S1YyHY?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=2",
+    "https://youtu.be/Kl72PKDAgEI?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=1",
+    "https://youtu.be/Dsb8oU4sr-w?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq",
+    "https://youtu.be/SOXOh7x5gVE?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=1",
+    "https://youtu.be/F2rlIiriso8?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=2",
+    "https://youtu.be/rt3LPJMP2c0?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=1",
+    "https://youtu.be/r6dWj7fkYoI?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=26",
+    "https://youtu.be/hO5XFwFqqN8?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=1",
+    "https://youtu.be/D-uoMwAdExs?list=PL6-PxNYXijDEsAKC8-PGiA6L8k4K5nXPq&t=2"
 ];
 
 
