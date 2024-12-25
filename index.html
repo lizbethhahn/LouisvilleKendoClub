@@ -1,47 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Louisville Kendo Club</title>
-
-<!-- Required Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstap CSS and Custom CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
-  </head>
-  <body>
-    
-<!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid text-white jumbotron-home">
-
-      <div class="container text-sm-center pt-5">
-          
-       <h1 class="display-3">Louisville Kendo Club</h1> 
-      </div>
-    </div> 
-
-<!-- Kata Search form field -->  
-    <form class="video-form">
-      <div class="container-fluid">
-        <div class="kataSearch">
-          <div class="row">
-            <div class="col">
-              <h3><strong>Kata Search</strong></h3>
-              <input id="myInput" placeholder="enter a number" type="text">
-              <button id="myButton" onclick="getVideo()">Submit</button>
-              <script src = "js/app.js"></script> 
-            </div> 
-            <div class="col">
-              <p>Quick and easy way to view kata video from The All Japan Kendo Federation.  These are black and white video with English dubbing. Please enter a number 1-10. Kodachi 1-3, represented by 8-10.</p>
+    <head>
+        <title>Louisville Kendo Club</title>
+    <!-- Required Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstap CSS and Custom CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid text-white jumbotron-home">
+            <div class="container text-sm-center pt-5">
+                <h1 class="display-3">Louisville Kendo Club</h1>
             </div>
-          </div>  
         </div>
-      </div>
-    </form>
-  
-<!--Image Gallery https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive-->
-    <div class="responsive">
+
+        <!-- Kata Search form field -->
+        <form class="video-form">
+            <div class="container-fluid">
+                <div class="kataSearch">
+                    <div class="row">
+                        <div class="col">
+                            <h3><strong>Kata Search</strong></h3>
+                            <input id="myInput" placeholder="enter a number" type="text">
+                            <button id="myButton" onclick="getVideo()">Submit</button>
+                        </div>
+                        <div class="col">
+                            <p>Quick and easy way to view kata video from The All Japan Kendo Federation.  These are black and white video with English dubbing. Please enter a number 1-10. Kodachi 1-3, represented by 8-10.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!--Image Gallery https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive-->
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/ClubInDojo.jpg">
+                    <img src="img/2024LKCPics/ClubInDojo.jpg" alt="Louisville Kendo Club group pic." width="600" height="400">
+                </a>
+                <div class="desc">Louisville Kendo Club after a practice.</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/ClubAtJohnsonCup.jpg">
+                    <img src="img/2024LKCPics/ClubAtJohnsonCup.jpg" alt="Louisville Kendo Club at Johnson Cup" width="600" height="400">
+                </a>
+                <div class="desc">Louisville Kendo Club at 2024 Johnson Cup.</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JASKDemo2.jpg">
+                    <img src="img/2024LKCPics/JASKDemo2.jpg" alt="Kendo demo at Japan America Society Kentucky" width="600" height="400">
+                </a>
+                <div class="desc">Members of Louisville Kendo Club demonstrate kendo for <a href="https://www.jask.org/" target="_blank">Japan America Society Kentucky.</a></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JASKDemo.jpg">
+                    <img src="img/2024LKCPics/JASKDemo.jpg" alt="Kendo demo at Japan America Society Kentucky" width="600" height="400">
+                </a>
+                <div class="desc">Kendo demonstration day for <br>JASK</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JohnsonCupTrophyGroup.jpg">
+                    <img src="img/2024LKCPics/JohnsonCupTrophyGroup.jpg" alt="3 young team members with trophy and medals around their neck" width="400" height="600">
+                </a>
+                <div class="desc">Finn and Miyake siblings from St. Louis form a team and win!</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JoshKendallShodanPrep.jpg">
+                    <img src="img/2024LKCPics/JoshKendallShodanPrep.jpg" alt="Kendo person tying on the men" width="400" height="600">
+                </a>
+                <div class="desc">Josh tying on his <i>men</i> before attempting his <i>Shodan</i> test</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/Alex&Finn.jpg">
+                    <img src="img/2024LKCPics/Alex&Finn.jpg" alt="Childern in Kendo bogu taking a break from practice" width="400" height="600">
+                </a>
+                <div class="desc">Alex and Finn before practice.</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JohnsonCupMedalWinners.jpg">
+                    <img src="img/2024LKCPics/JohnsonCupMedalWinners.jpg" alt="Medal winners lined up after winning medals." width="600" height="400">
+                </a>
+                <div class="desc">Winners lined up after receiving their medals.</i></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/2024LKCPics/JASKBotanicalGardensDemo">
+                    <img src="img/2024LKCPics/JASKBotanicalGardensDemo.jpg" alt="Kendo demo at Waterfront Botanical Gardens" width="600" height="400">
+                </a>
+                <div class="desc">Kendo demonstration for JASK at <a href="https://waterfrontgardens.org/" target="_blank">Waterfront Botanical Gardens</a></div>
+            </div>
+        </div>
+
+        <!--Old photos without a permanant location, so they will be commented out here until a solution is found-->
+        <!--<div class="responsive">
       <div class="gallery">
         <a target="_blank" href="img/600x400/alexAdam.jpg">
           <img src="img/600x400/alexAdam.jpg" alt="Visiting Sensei instructing student." width="300" height="200">
@@ -58,7 +135,7 @@
         <div class="desc">Students lined up in <i>seiza</i>, during <i>mokuso.</i></div>
       </div>
     </div>
-    
+
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="img/600x400/hahnStandingRei.jpg">
@@ -111,82 +188,83 @@
         </a>
         <div class="desc">L to R: Roger, Ian, Elizabeth, Chris, Alex, Stephen, Adam</div>
       </div>
-    </div>
+    </div>-->
 
-    <div class="clearfix"></div>
-<!--End image gallery -->
+        <div class="clearfix"></div>
+        <!--End image gallery -->
 
-<!-- About, Practice Times, Map -->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="about">
-            <h3>About Louisville Kendo</h3>
-            <p> Louisville Kendo Club is the local Kendo club for the greater Louisville area. Founded in 2004, Louisville Kendo Club <br />is a non-profit organization dedicated to the practice and <br />teaching of kendo and is affiliated with the East Central <br />U.S. Kendo Federation (ECUSKF) and is part of the All United <br />States Kendo Federation (AUSKF).<br> 
-            <p style="padding-top: .5em">The concept and purpose of practicing kendo, according the All Japan Kendo Federation: </p>
-            
-            <b>Concept </b><br> 
-            Kendo is a way to discipline the human character through the application of the principles of the katana.<br>
-            
-            <b>Purpose</b><br>
-            To mold the mind and body.<br>
-            To cultivate a vigorous spirit<br>
-            And through correct and rigid training,<br>
-            To strive for improvement in the art of Kendo.<br>
-            To hold in esteem human courtesy and honor.<br>
-            To associate with others with sincerity.<br>
-            And to forever pursue the cultivation of oneself.<br>
-            Thus will one be able:<br>
-            To love one's country and society;<br>
-            To contribute to the development of culture;<br>
-            And to promote peace and prosperity among all peoples.
-            </p>
-          </div>
-        </div>   
-    
-        <div class="col"> 
-          <div class="timesLocation">
-            <h3>Practice times</h3> 
-            <p><b>Wednesday</b> 7:00PM-8:30PM<br><b>Sunday</b> 6:00PM-7:30PM</p>
+        <!-- About, Practice Times, Map -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="about">
+                        <h3>About Louisville Kendo</h3>
+                        <p> Louisville Kendo Club is the local Kendo club for the greater Louisville area. Founded in 2004, Louisville Kendo Club <br />is a non-profit organization dedicated to the practice and <br />teaching of kendo and is affiliated with the East Central <br />U.S. Kendo Federation (ECUSKF) and is part of the All United <br />States Kendo Federation (AUSKF).<br>
+                        <p style="padding-top: .5em">The concept and purpose of practicing kendo, according the All Japan Kendo Federation: </p>
 
-            <p>This is our regular practice time.  However, occassionaly we are out of town or may have to cancel practice for some reason, so please contact us to ensure we will be having practice on a given day.<br></p>
-            <p><b>Contact</b>: adam.m.west.77@gmail.com</p> 
-            
-            <h3>Where we are located</h3>
-            <p>We have moved into a new space located at<br><b>9212 Taylorsville Road, Louisville KY 40299.</b><br>Enter the parking lot from Six Mile Lane</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.9701630170866!2d-85.5866624!3d38.210589399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8869a06b7c78742f%3A0xc3dd27c38b7a3a4f!2s9212%20Taylorsville%20Rd%2C%20Jeffersontown%2C%20KY%2040299!5e0!3m2!1sen!2sus!4v1729014517842!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+                        <b>Concept </b><br>
+                        Kendo is a way to discipline the human character through the application of the principles of the katana.<br>
+
+                        <b>Purpose</b><br>
+                        To mold the mind and body.<br>
+                        To cultivate a vigorous spirit<br>
+                        And through correct and rigid training,<br>
+                        To strive for improvement in the art of Kendo.<br>
+                        To hold in esteem human courtesy and honor.<br>
+                        To associate with others with sincerity.<br>
+                        And to forever pursue the cultivation of oneself.<br>
+                        Thus will one be able:<br>
+                        To love one's country and society;<br>
+                        To contribute to the development of culture;<br>
+                        And to promote peace and prosperity among all peoples.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="timesLocation">
+                        <h3>Practice times</h3>
+                        <p><b>Wednesday</b> 7:00PM-8:30PM<br><b>Sunday</b> 6:00PM-7:30PM</p>
+
+                        <p>This is our regular practice time.  However, occassionaly we are out of town or may have to cancel practice for some reason, so please contact us to ensure we will be having practice on a given day.<br></p>
+                        <p><b>Contact</b>: adam.m.west.77@gmail.com</p>
+
+                        <h3>Where we are located</h3>
+                        <p>We have moved into a new space located at<br><b>9212 Taylorsville Road, Louisville KY 40299.</b><br>Enter the parking lot from Six Mile Lane</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.9701630170866!2d-85.5866624!3d38.210589399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8869a06b7c78742f%3A0xc3dd27c38b7a3a4f!2s9212%20Taylorsville%20Rd%2C%20Jeffersontown%2C%20KY%2040299!5e0!3m2!1sen!2sus!4v1729014517842!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div> 
-<!-- End About, Practice Times, Map -->
+        <!-- End About, Practice Times, Map -->
 
-<!--  Footer -->
-    <footer class="main-footer">
-      <div class="container-fluid">
-        <div class="footer">
-          <div class="row"> 
-            
-            <div class="col">
-              <p><strong>Louisville Kendo Club</strong><br>9212 Taylorsville Road<br>Louisville, KY 40299</p> 
-            </div>
-            
-            <div class="col">
-              <div class="d-flex justify-content-end">
-               <a href="index.html"><img src="img/LKC_logo_green.png" style="width:75px; height:75px;"></a>
-               <a href="http://auskf.org/"><img src="img/auskfLogo.gif" style="width:75px; height:75px;"></a>
-              </div>
-            </div>
-          </div>
-        </div>  
-      </div>
-    </footer>   
+        <!--  Footer -->
+        <footer class="main-footer">
+            <div class="container-fluid">
+                <div class="footer">
+                    <div class="row">
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->   
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+                        <div class="col">
+                            <p><strong>Louisville Kendo Club</strong><br>9212 Taylorsville Road<br>Louisville, KY 40299</p>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex justify-content-end">
+                                <a href="index.html"><img src="img/LKC_logo_green.png" style="width:75px; height:75px;"></a>
+                                <a href="http://auskf.org/"><img src="img/auskfLogo.gif" style="width:75px; height:75px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
 
