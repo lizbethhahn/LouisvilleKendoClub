@@ -7,7 +7,6 @@ html,body {
 .jumbotron-home {
     background-image: url('../img/groupChudanBlue.jpg');
     background-size: cover;
-    /*margin-bottom: 0;*/
 }
 
 .video-form {
@@ -16,6 +15,7 @@ html,body {
     background-color: rgb(37, 55, 95);
     color: white;
     padding-top: 10px;
+    padding-right: 40px;
     padding-right: 40px;
     padding-bottom: 5px;
     padding-left: 35px;
@@ -28,17 +28,25 @@ html,body {
     color:  rgb(64, 95, 161);
 }
 
-div.gallery {
-    border: 1px solid #ccc;
+
+.images-section .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px; /* Space between the grid items */
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
+.grid-item {
+    text-align: center; /* Center the image and any content */
+    padding: 10px; /* Optional padding for spacing around the image */
+    border: 1px solid #ccc; /* Optional: border for containers */
+    box-sizing: border-box; /* Ensure padding and borders don't affect size */
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+.grid-item img {
+    max-width: 100%; /* Scale image to fit within container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove inline-block spacing */
+    margin: 0 auto; /* Center image horizontally */
 }
 
 div.desc {
@@ -56,13 +64,13 @@ div.desc {
     background-color: rgb(37, 55, 95);
     color: white;
     height: 75px;
+    padding-left: 30px;
 }
 
 
 /********* Image Gallery *********/
 .responsive {
     padding: 0 6px;
-    float: left;
     width: 24.99999%;
 }
 
